@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Categorizer</title>
+  <link rel="stylesheet" href="expense.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>🥧 Expense Categorizer</h1>
+  <div class="container">
+    <input type="text" id="category" placeholder="Enter Category (e.g. Food)">
+    <input type="number" id="amount" placeholder="Enter Amount">
+    <button onclick="addExpense()">Add Expense</button>
+  </div>
+  <canvas id="expenseChart"></canvas>
+  <script src="expense.js"></script>
+</body>
+</html>

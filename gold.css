@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fffbea;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #f9a825;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#progress {
+  margin-top: 20px;
+  font-size: 18px;
+}
